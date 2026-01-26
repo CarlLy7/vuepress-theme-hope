@@ -27,7 +27,6 @@ export default hopeTheme({
 
   displayFooter: false,
 
-
   encrypt: {
     config: {
       "/demo/encrypt.html": {
@@ -74,6 +73,7 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
+    alert: true,
 
     // uncomment these if you need TeX support
     // math: {
@@ -131,9 +131,11 @@ export default hopeTheme({
       prefix: "fa6-solid:",
     },
 
+    catalog: false,
+
     slimsearch: {
       // 插件选项
-    }
+    },
 
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {

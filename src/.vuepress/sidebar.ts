@@ -4,6 +4,11 @@ export default sidebar({
   "/": [
     "",
     {
+      text: "网站介绍",
+      icon: "info",
+      link: "/introduction/",
+    },
+    {
       text: "面试题库",
       icon: "majesticons:book-open",
       collapsible: true,
