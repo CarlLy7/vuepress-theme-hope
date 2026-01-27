@@ -80,5 +80,12 @@ export default sidebar({
       prefix: "program/",
       children: "structure"
     },
+    {
+      text: "架构师",
+      icon: "stash:balance-duotone",
+      collapsible: true,
+      prefix: "jiagou/",
+      children: "structure"
+    },
   ],
 });
