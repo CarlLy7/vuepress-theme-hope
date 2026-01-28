@@ -25,67 +25,74 @@ export default sidebar({
               icon: "carbon:cloud-data-ops",
               collapsible: true,
               prefix: "RAG/",
-              children: "structure"
-            }
-          ]
+              children: "structure",
+            },
+            {
+              text: "Agent理论与框架",
+              icon: "streamline-ultimate-color:insurance-head",
+              collapsible: true,
+              prefix: "Agent/",
+              children: "structure",
+            },
+          ],
         },
         {
           text: "后端",
           icon: "line-md:clipboard-list-twotone",
           collapsible: true,
           prefix: "back/",
-          children: "structure"
+          children: "structure",
         },
         {
           text: "场景设计题库",
           icon: "eos-icons:system-image",
           collapsible: true,
           prefix: "design/",
-          children: "structure"
-        }
-      ]
+          children: "structure",
+        },
+      ],
     },
     {
       text: "消息中间件",
       icon: "mdi:email-outline",
       collapsible: true,
       prefix: "message/",
-      children: "structure"
+      children: "structure",
     },
     {
       text: "Devops",
       icon: "line-md:briefcase-filled",
       collapsible: true,
       prefix: "devops/",
-      children: "structure"
+      children: "structure",
     },
     {
       text: "程序员进阶之路",
       icon: "eos-icons:enhancement",
       collapsible: true,
       prefix: "upgrade/",
-      children: "structure"
+      children: "structure",
     },
     {
       text: "AI应用开发",
       icon: "paintbrush",
       collapsible: true,
       prefix: "ai-dev/",
-      children: "structure"
+      children: "structure",
     },
     {
       text: "项目",
       icon: "rectangle-list",
       collapsible: true,
       prefix: "program/",
-      children: "structure"
+      children: "structure",
     },
     {
       text: "架构师",
       icon: "stash:balance-duotone",
       collapsible: true,
       prefix: "jiagou/",
-      children: "structure"
+      children: "structure",
     },
   ],
 });
