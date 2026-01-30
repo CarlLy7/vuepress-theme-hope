@@ -115,13 +115,13 @@ export default hopeTheme({
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     // 评论区配置
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "vuepress-theme-hope/giscus-discussions",
-    //   repoId: "R_kgDOG_Pt2A",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "CarlLy7/vuepress-theme-hope",
+      repoId: "R_kgDORAtthw",
+      category: "General",
+      categoryId: "DIC_kwDORAtth84C1oim",
+    },
 
     components: {
       components: ["Badge", "VPCard"],
